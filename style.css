@@ -1,0 +1,73 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(238, 232, 239);
+  direction: rtl;
+}
+
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.mainContainer h1 {
+  text-align: center;
+  padding: 3%;
+}
+
+.cardBooks {
+  /* width: 100%; */
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1% 2%;
+  /* flex-direction: row; */
+  background-color: rgb(232, 233, 234);
+}
+
+.Books {
+  width: 50%;
+  padding: 4% 3% 3% 5%;
+  border: 3px solid rgb(207, 200, 200);
+}
+
+.Books h3 {
+  padding: 5%;
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(48, 49, 49);
+}
+
+.Books p {
+  /* padding: 5%; */
+  text-align: center;
+  /* font-size: 2rem; */
+  color: rgb(57, 156, 156);
+}
+
+.Books button {
+  padding: 5%;
+  text-align: center;
+  margin: 10% 40%;
+  font-size: 1rem;
+  color: rgb(57, 156, 156);
+  border-radius: 50px;
+  border: none;
+  box-shadow: 2px 3px 4px rgb(207, 200, 200);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Books button:hover {
+  color: white;
+  background-color: rgb(57, 156, 156);
+}
+
+/* .Books img{
+    width: 50%;
+    
+} */
